@@ -1,0 +1,128 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f0ede4;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    color: #6b0000;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6b0000;
+    padding-bottom: 10px;
+}
+
+#buscador {
+    flex: 1;
+    padding: 14px;
+    font-size: 18px;
+    border: 2px solid #6b0000;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#resultados {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.entrada {
+    background: white;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-left: 6px solid #6b0000;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.latin {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6b0000;
+}
+
+.espanol {
+    margin-top: 6px;
+    color: #444;
+    line-height: 1.5;
+}
+
+#contador {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.zona-busqueda {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#limpiar {
+ padding: 14px 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6b0000;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#limpiar:hover {
+    background-color: #8b0000;
+}
+
+#subtitulo {
+    text-align: center;
+    color: #666;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+#firma-romana {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#spqr {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 12px;
+    color: #6b0000;
+}
+
+#spqr-subtitulo {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .zona-busqueda {
+        gap: 6px;
+    }
+
+    #limpiar {
+        padding: 14px 10px;
+    }
+
+}
